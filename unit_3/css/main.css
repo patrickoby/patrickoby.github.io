@@ -1,0 +1,51 @@
+body	{
+	text-align: center;
+	background-image: url('../images/gs002.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #A4BDC7;
+	color: #7AC3C7;
+}
+h1 {
+	text-transform: uppercase;
+}
+
+a {
+	color: #8F91B6;
+	text-decoration: none;
+}
+
+#logo	{
+	color: #7AC3C7;
+	font-size: 50px;
+	font-weight: 700;
+}
+.nav-link {
+	font-size: 25px;
+	display: inline;
+	margin: 20px;
+}
+
+#bottom-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#bottom-nav ul li {
+	display: inline;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 20px;
+}
+
+#space {
+	width: center; padding: center;
+	padding-top: 400px;
+	font-size: 20px;
+}
+
+
