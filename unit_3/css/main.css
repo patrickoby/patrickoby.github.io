@@ -1,13 +1,11 @@
 body	{
 	text-align: center;
-	background-image: url('../images/gs002.JPG');
+	/*background-image: url('../images/gs002.JPG');
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-color: #A4BDC7;
+	background-repeat: no-repeat; */
+	background-color: #1A1921;
 	color: #7AC3C7;
-}
-h1 {
-	text-transform: uppercase;
+	font-family: 'Economica', sans-serif;
 }
 
 a {
@@ -15,37 +13,57 @@ a {
 	text-decoration: none;
 }
 
+ul {
+	list-style-type: none;
+}
+
 #logo	{
 	color: #7AC3C7;
 	font-size: 50px;
-	font-weight: 700;
+	font-weight: 300;
+	background-color: #353444;
 }
-.nav-link {
-	font-size: 25px;
+
+#nav-bar {
+	background-color: #353444;
+	font-weight: 100;
+}
+#nav-bar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 30px;
+}
+
+#nav-bar ul li {
 	display: inline;
-	margin: 20px;
+	margin: 30px;
 }
 
 #bottom-nav ul {
 	margin: 0;
-	padding: 0;
-	list-style-type: none;
-	text-align: center;
+	text-align: left;
+	float: left;
+	font-size: 15px;
 }
 
-#bottom-nav ul li {
-	display: inline;
+#contact-nav ul {
+	margin: 0;
+	text-align: right;
+	float: right;
+	font-size: 15px;
 }
+
 
 #slogan {
 	font-style: italic;
 	font-size: 20px;
 }
 
-#space {
+/*#space {
 	width: center; padding: center;
 	padding-top: 400px;
 	font-size: 20px;
 }
-
+*/
 
