@@ -17,6 +17,10 @@ ul {
 	list-style-type: none;
 }
 
+img {
+	background-repeat: no-repeat;
+}
+
 #logo	{
 	color: #7AC3C7;
 	font-size: 50px;
