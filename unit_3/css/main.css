@@ -1,8 +1,8 @@
 body	{
 	text-align: center;
-	background-image: url('../images/gs002.JPG');
+	/*background-image: url('../images/gs002.JPG');
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	background-color: #1A1921;
 	color: #7AC3C7;
 	font-family: 'Economica', sans-serif;
@@ -60,10 +60,10 @@ ul {
 	font-size: 20px;
 }
 
-#space {
+/*#space {
 	width: center; padding: center;
 	padding-top: 400px;
 	font-size: 20px;
-}
+} */
 
 
