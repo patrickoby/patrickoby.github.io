@@ -8,9 +8,28 @@ body	{
 	font-family: 'Economica', sans-serif;
 }
 
-a {
-	color: #8F91B6;
+/*unvisited link*/
+a:link {
+	color: #B794C5;
 	text-decoration: none;
+
+}
+
+/*visited link*/
+a:visited {
+
+	color: #51785C;
+}
+
+/*mouse over link*/
+a:hover {
+
+	color: #C56F7F;
+}
+
+/*selected link*/
+a:active {
+	color: blue;
 }
 
 ul {
@@ -27,12 +46,16 @@ img {
 	font-weight: 300;
 	background-color: #353444;
 	font-family: 'Permanent Marker', cursive;
+	margin-top: 0;
+	margin-bottom: 0;
+
 }
 
 #nav-bar {
 	background-color: #353444;
 	font-weight: 100;
 }
+
 #nav-bar ul {
 	margin: 0;
 	padding: 0;
@@ -42,21 +65,33 @@ img {
 
 #nav-bar ul li {
 	display: inline;
+	padding: 0;
 	margin: 30px;
+	line-height: 50px;
 }
 
-#bottom-nav ul {
-	margin: 0;
+.bottom-nav-wrapper {
+	background: #353444;
+	width: 100%;
+	display: block;
+	float: left;
+} 
+
+.bottom-nav-links {
 	text-align: left;
-	float: left;
 	font-size: 15px;
+	background-color: #353444;
+	margin: 0 0 0 0;
+	float: left;
 }
 
-.contact-nav {
-	margin: 0;
-	text-align: right;
-	float: left;
-	font-size: 20px;
+.contact-nav-links {
+	text-align: left;
+	font-size: 18px;
+	background-color: #353444;
+	margin: 0 0 0 0;
+	float: left;	
+
 }
 
 
