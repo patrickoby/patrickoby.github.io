@@ -74,12 +74,11 @@ img {
 	background: #353444;
 	width: 100%;
 	display: block;
-	height: 100%;
 } 
 
 .bottom-nav-links {
 	text-align: left;
-	font-size: 15px;
+	font-size: 30px;
 	background-color: #353444;
 	margin: 0 0 0 0;
 	float: left;
@@ -93,7 +92,6 @@ img {
 	float: left;	
 
 }
-
 
 #slogan {
 	font-style: italic;
