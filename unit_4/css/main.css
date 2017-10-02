@@ -10,7 +10,7 @@ body	{
 
 /*unvisited link*/
 a:link {
-	color: #B794C5;
+	color: #7AC3C7;
 	text-decoration: none;
 
 }
@@ -24,7 +24,7 @@ a:visited {
 /*mouse over link*/
 a:hover {
 
-	color: #C56F7F;
+	color: #C8FFFF;
 }
 
 /*selected link*/
@@ -73,25 +73,29 @@ img {
 #bottom-nav-wrapper {
 	background: #353444;
 	height: 100%;
-	width: 100%;
 	display: block;
+	width: 100%;
+	float: left;
+	text-align: left;
 } 
 
-#bottom-nav-links {
+.bottom-nav-links {
 	text-align: left;
 	font-size: 15px;
 	background-color: #353444;
 	margin: 0 0 0 0;
 	float: left;
+	display: inline-block;
 }
 
-#contact-nav-links {
+.contact-nav-links {
 	text-align: left;
 	font-size: 18px;
 	background-color: #353444;
 	margin: 0 0 0 0;
 	float: left;
 	padding-bottom: 0;	
+	display: inline-block;
 }
 
 #slogan {
