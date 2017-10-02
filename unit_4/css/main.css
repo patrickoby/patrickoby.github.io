@@ -85,7 +85,6 @@ img {
 	background-color: #353444;
 	margin: 0 0 0 0;
 	float: left;
-	display: inline-block;
 }
 
 .contact-nav-links {
@@ -95,7 +94,6 @@ img {
 	margin: 0 0 0 0;
 	float: left;
 	padding-bottom: 0;	
-	display: inline-block;
 }
 
 #slogan {
@@ -106,7 +104,7 @@ img {
 #space {
 	width: center; 
 	padding: center;
-	padding-top: 600px;
+	padding-top: 400px;
 	font-size: 20px;
 } 
 
