@@ -1,8 +1,11 @@
+* {
+
+	padding: 0;
+	margin: 0;
+}
 body	{
 	text-align: center;
-	background-image: url('../images/gs002.JPG');
-	background-size: cover;
-	background-repeat: no-repeat;
+	/*background-image: url('../images/gs002.JPG');*/
 	background-color: #1A1921;
 	color: #7AC3C7;
 	font-family: 'Economica', sans-serif;
@@ -36,43 +39,86 @@ ul {
 	list-style-type: none;
 }
 
-img {
-	background-repeat: no-repeat;
-}
-
-#logo	{
+#logo h1 {
 	color: #7AC3C7;
 	font-size: 50px;
 	font-weight: 300;
 	background-color: #353444;
 	font-family: 'Permanent Marker', cursive;
-	margin-top: 0;
-	margin-bottom: 0;
+	text-align: right;
+	padding-right: 585px;
+	padding-top: 10px;
+}
+
+#nav-bar-right ul li {
+	text-align: right;
+	float: right;
+	display:inline;
+	font-size: 15px;
+	background-color: #353444;
+	padding: 5px;
 
 }
 
-#nav-bar {
+.nav-bar {
 	background-color: #353444;
 	font-weight: 100;
+	padding: 0;
+	margin: 0;
 }
 
-#nav-bar ul {
+.nav-bar ul {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
 	font-size: 30px;
 }
 
-#nav-bar ul li {
+.nav-bar ul li {
 	display: inline;
 	padding: 0;
-	margin: 30px;
+	margin: 25px;
 	line-height: 50px;
+	text-align: center;
+	float: center;
 }
 
-#bottom-nav-wrapper {
+img {
+	background-repeat: no-repeat;
+	width:100%;
+}
+
+#round {
+	width: 23%;
+	float: left;
+	border-style: solid;
+	border-width: 0.3em;
+}
+
+#square {
+	width: 24%;
+	float: left;
+	border-style: solid;
+	border-width: 0.3em;
+	
+}
+
+#classic {
+	width: 24.5%;
+	float: left;
+	border-style: solid;
+	border-width: 0.3em;
+}
+
+#sale {
+	width: 25.9%;
+	float: left;
+	border-style: solid;
+	border-width: 0.3em;
+}
+
+footer {
 	background: #353444;
-	height: 100%;
 	display: block;
 	width: 100%;
 	float: left;
@@ -83,7 +129,7 @@ img {
 	text-align: left;
 	font-size: 15px;
 	background-color: #353444;
-	margin: 0 0 0 0;
+	padding: 10px;
 	float: left;
 }
 
@@ -91,7 +137,7 @@ img {
 	text-align: left;
 	font-size: 18px;
 	background-color: #353444;
-	margin: 0 0 0 0;
+	padding: 10px;
 	float: left;
 	padding-bottom: 0;	
 }
@@ -99,11 +145,13 @@ img {
 #slogan {
 	font-style: italic;
 	font-size: 20px;
+	float: center;
+	text-align: center;
 }
 
 #space {
 	width: center; 
 	padding: center;
-	padding-top: 400px;
+	padding-top: 300px;
 	font-size: 20px;
 } 
