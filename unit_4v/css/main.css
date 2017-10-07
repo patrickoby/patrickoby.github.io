@@ -38,7 +38,16 @@ a:active {
 
 ul {
 	list-style-type: none;
+
 }
+
+/*p {
+	font-size: 1em;
+	line-height: 1.5em;
+	width: 30em;
+	text-align: center;
+	margin: 2em auto;
+}*/
 
 /* About me section
 h1 {
@@ -53,19 +62,6 @@ h1 {
 
 }
 */
-
-/*About me container*/
-.aboutmecontainer {
-	background-color: #353444;
-}
-/*About me Paragraph CSS*/
-.aboutme {
-	font-size: 1em;
-	width: 30em;
-	margin: 2em auto;
-	text-align: center;
-	font-family: 'Economica', sans-serif;
-}
 
 #logo h1 {
 	color: #7AC3C7;
@@ -182,4 +178,60 @@ footer {
 	padding: center;
 	padding-top: 300px;
 	font-size: 20px;
-} 
+}
+
+/*About me container*/
+.aboutmecontainer {
+	position: relative;
+	/*background-image: url('../images/gsimage001.JPG');*/
+	background-repeat: no-repeat;
+	width: 100%;
+	position: relative;
+
+	font-size: 1em;
+	width: 30em;
+	margin: 2em auto;
+	text-align: center;
+	font-family: 'Economica', sans-serif;
+}
+/*.aboutmecontainer {
+	background-color: #353444;
+	position: absolute;
+}
+/*FAQs section*/
+.questions {
+	background-color: #353444;
+	text-align: left;
+	float: left;
+	padding: 1.5em;
+	width: 30em;
+	line-height: 1.5em;
+}
+
+.questions h1 {
+	font-size: 4em;
+	padding: 1em 0 1em 0;
+}
+
+.questions h2 {
+	font-size: 3em;
+	padding: 0.5em 0 0.5em 0;
+	line-height: 1.5em
+}
+
+.questions h4 {
+
+	font-size: 2em;
+	padding: 0.7em 0 0.7em 0;
+}
+
+.questions p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+/*font-size: 1em;
+	line-height: 1.5em;
+	width: 30em;
+	text-align: center;
+	margin: 2em auto;
