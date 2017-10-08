@@ -38,30 +38,44 @@ a:active {
 
 ul {
 	list-style-type: none;
-
 }
 
-/*p {
-	font-size: 1em;
-	line-height: 1.5em;
-	width: 30em;
-	text-align: center;
-	margin: 2em auto;
-}*/
-
-/* About me section
-h1 {
-	color: #7AC3C7;
-	font-size: 50px;
-	font-weight: 300;
-	background-color: #353444;
-	font-family: 'Permanent Marker', cursive;
-	text-align: right;
-	padding-right: 585px;
-	padding-top: 10px;
-
+img {
+	width: 96%;
 }
-*/
+/* declaration specific to week 5 - remove when done w week 5*/
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+/*the above was where week 5 declaration ended, remove above after week 5*/
+
 
 #logo h1 {
 	color: #7AC3C7;
@@ -107,20 +121,12 @@ h1 {
 	float: center;
 }
 
-img {
-	background: no-repeat;
-	width:100%;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-
 #round {
-	width: 23%;
+	width: 24%;
 	float: left;
 	border-style: solid;
 	border-width: 0.3em;
+	padding-top: 3em;
 }
 
 #square {
@@ -128,25 +134,32 @@ img {
 	float: left;
 	border-style: solid;
 	border-width: 0.3em;
+	padding-top: 3em;
 	
 }
 
 #classic {
-	width: 24.5%;
+	width: 24%;
 	float: left;
 	border-style: solid;
 	border-width: 0.3em;
+	padding-top: 3em;
 }
 
 #sale {
-	width: 25.6%;
+	width: 24%;
 	float: left;
 	border-style: solid;
 	border-width: 0.3em;
+	padding-top: 3em;
 }
 
 footer {
-	background: #353444;
+	background-color: #FFE2B8; /*this was for week 5 remove when over*/
+	border: 1px black solid; /*this was for week 5 remove when over*/
+	padding: 20px; /*this was for week 5 remove when over*/
+
+	/*background: #353444; add this color back in when week 5 is over*/
 	display: block;
 	width: 100%;
 	float: left;
@@ -169,7 +182,6 @@ footer {
 	float: left;
 	padding-bottom: 0;	
 }
-
 #slogan {
 	font-style: italic;
 	font-size: 20px;
@@ -177,10 +189,9 @@ footer {
 	text-align: center;
 }
 
-#space {
-	width: center; 
-	padding: center;
-	padding-top: 300px;
+#space p { 
+	float: center;
+	padding-top: 100px;
 	font-size: 20px;
 }
 
@@ -212,10 +223,7 @@ footer {
 	font-family: 'Economica', sans-serif;
 }
 
-/*.aboutmecontainer {
-	background-color: #353444;
-	position: absolute;
-}
+
 /*FAQs section*/
 .questions {
 	text-align: left;
@@ -253,8 +261,3 @@ footer {
 	float: right;
 } 
 
-/*font-size: 1em;
-	line-height: 1.5em;
-	width: 30em;
-	text-align: center;
-	margin: 2em auto;
